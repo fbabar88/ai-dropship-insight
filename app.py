@@ -1,9 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title="Test App", layout="wide")
+st.set_page_config(page_title="Test App", layout="centered")
 
-st.title("🚀 It works!")
-st.write("If you're seeing this, your Streamlit app is rendering correctly.")
+st.title("🚀 Streamlit Is Working!")
 
-if st.button("Click me!"):
-    st.success("You clicked the button!")
+st.write("If you see this message, your app is rendering correctly.")
