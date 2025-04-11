@@ -14,8 +14,8 @@ with st.form(key="search_form"):
     submit = st.form_submit_button("Find Products")
 
 if submit:
-    st.info("Searching products... (mock data)")
-    # Mock results for now
+    st.success(f"Searching for: {niche}")
+    st.info("Showing mock results...")
     for i in range(3):
         st.markdown(f"**Product {i+1}** - Sample product title")
         st.markdown("Price: $XX.XX")
